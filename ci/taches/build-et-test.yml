@@ -7,7 +7,9 @@ image_resource:
     tag: '8-jdk'
 
 inputs:
-- name: springmusic 
+- name: springmusic
+outputs:
+- name: springmusic-app
 
 run:
   path: springmusic/ci/scripts/build-et-test.sh
