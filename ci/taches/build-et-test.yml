@@ -1,0 +1,15 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: openjdk
+    tag: '8-jdk'
+
+inputs:
+- name: springmusic 
+
+run:
+  path: springmusic/ci/scripts/build-et-test.sh
+params:
+  TERM: dumb
