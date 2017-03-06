@@ -22,3 +22,6 @@ tar -C ${ROOT_FOLDER}/archive -czvf ${ROOT_FOLDER}/springmusic-app-${VERSION}.ta
 
 # Nettoyage des fichiers temporaires
 rm -rf ${ROOT_FOLDER}/{reports,test-results,archive}
+
+# Afficher md5sum
+md5sum ${ROOT_FOLDER}/springmusic-app-${VERSION}.tar.gz
