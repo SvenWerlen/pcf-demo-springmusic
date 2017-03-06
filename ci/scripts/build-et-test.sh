@@ -11,6 +11,7 @@ mkdir -p ${ROOT_FOLDER}/test-results
 mkdir -p ${ROOT_FOLDER}/archive
 
 # Build
+cd ${ROOT_FOLDER}
 ./gradlew build
 
 # Création de l'archive
