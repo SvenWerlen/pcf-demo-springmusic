@@ -13,7 +13,7 @@ mkdir -p ${ROOT_FOLDER}/test-results
 mkdir -p ${ROOT_FOLDER}/archive
 
 # Build
-cd ${ROOT_FOLDER}
+cd ${ROOT_FOLDER}/*springmusic
 ./gradlew build
 
 # Création de l'archive
