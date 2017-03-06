@@ -1,0 +1,21 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: ubuntu
+
+inputs:
+- name: springmusic-app
+
+outputs:
+- name: artifacts
+
+run:
+  path: sh
+  args:
+    - -ce
+    - |
+      tar -C artifacts/ -xzvf springmusic-app/springmusic-app-*.tar.gz
+      
