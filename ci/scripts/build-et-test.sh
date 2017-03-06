@@ -2,7 +2,7 @@
 
 set -e
 
-ROOT_FOLDER=$(pwd)
+ROOT_FOLDER=$(pwd)/pcf-demo-springmusic
 VERSION=$(date +"%Y%m%d%H%M%S")
 echo ROOT_FOLDER:${ROOT_FOLDER}
 echo VERSION:${VERSION}
@@ -13,7 +13,7 @@ mkdir -p ${ROOT_FOLDER}/test-results
 mkdir -p ${ROOT_FOLDER}/archive
 
 # Build
-cd ${ROOT_FOLDER}/*springmusic
+cd ${ROOT_FOLDER}
 ./gradlew build
 
 # Création de l'archive
