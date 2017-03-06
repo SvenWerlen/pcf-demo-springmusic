@@ -4,6 +4,8 @@ set -e
 
 ROOT_FOLDER=$(pwd)
 VERSION=$(date +"%Y%m%d%H%M%S")
+echo ROOT_FOLDER:${ROOT_FOLDER}
+echo VERSION:${VERSION}
 
 # Préparation
 mkdir -p ${ROOT_FOLDER}/reports
