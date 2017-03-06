@@ -2,7 +2,7 @@
 
 set -e
 
-ROOT_FOLDER=$(pwd)/pcf-demo-springmusic
+ROOT_FOLDER=$(pwd)/springmusic
 VERSION=$(date +"%Y%m%d%H%M%S")
 echo ROOT_FOLDER:${ROOT_FOLDER}
 echo VERSION:${VERSION}
